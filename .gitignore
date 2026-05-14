@@ -1,3 +1,13 @@
+# Repo Specific Ignores
+*.e
+*.msh
+*.csv
+
+# Repo Specific Exceptions
+!data/**/*.csv
+
+
+#-------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
